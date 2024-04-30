@@ -1,0 +1,48 @@
+:root {
+    --clr-verde-3: rgba(13, 67, 40, 0.555);
+    --clr-verde-2: rgba(26, 88, 56, 255);
+    --clr-verde-1: rgba(33, 98, 64, 255);
+    --clr-verde0: rgba(40, 109, 73, 255);
+    --clr-verde1: rgba(47, 120, 82, 0.555);
+    --clr-verde2: rgba(54, 131, 91, 255);
+    --clr-verde3: rgba(67, 152, 109, 255);
+    --clr-blanco: #f1f5f9;
+    --clr-blanco2:rgba(240, 240, 240, 255);
+    --clr-negro: rgba(20, 20, 20, 255)
+}
+
+#lista-precios{
+    width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: var(--clr-verde-3);
+    border: 2px solid var(--clr-verde0);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px var(--clr-verde-2);
+
+    
+}
+
+#lista-precios h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.categoria-servicio{
+    margin-bottom: 30px;
+}
+.categoria-servicio h4{
+    margin-bottom: 10px;
+}
+.categoria-servicio ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.categoria-servicio li{
+   
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+
